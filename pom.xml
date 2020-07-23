@@ -17,7 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<start-class>br.com.hfurlan.springbootcicd.SpringbootcicdApplication</start-class>
+<!--		<start-class>br.com.hfurlan.springbootcicd.SpringbootcicdApplication</start-class>-->
 	</properties>
 
 	<dependencies>
