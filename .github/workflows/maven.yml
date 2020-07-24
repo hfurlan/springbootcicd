@@ -25,6 +25,8 @@ jobs:
       - name: Maven Verify
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DATABASE_USERNAME: ${{ secrets.DATABASE_USERNAME }}
+          DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
         run: mvn -B clean verify
 #      - name: Build the Docker image
 #        run: docker build . --file Dockerfile --tag springbootcicd:$(date +%s)
