@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -XX:\+UnlockExperimentalVMOptions -XX:\+UseCGroupMemoryLimitForHeap -jar target/springbootcicd-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -XX:\+UnlockExperimentalVMOptions -XX:\+UseCGroupMemoryLimitForHeap -jar target/springbootcicd-*.jar
